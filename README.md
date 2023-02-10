@@ -45,7 +45,7 @@ DeMT achieves strong performance on PASCAL-Context (`75.33 mIoU semantic segment
 
 | name | backbone |  | #params | FLOPs | SemSeg |Depth | Normal| Bound| 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |:---: |
-| DeMT | Swin-T |  |  |  |  |  |  | - | [github]
+| DeMT | Swin-T |  |  |  |  |  |  | - | [github]|
 
 ## Citing Swin Transformer
 
