@@ -41,7 +41,7 @@ DeMT achieves strong performance on PASCAL-Context (`75.33 mIoU semantic segment
 
 ## Main Results on ImageNet with Pretrained Models
 
-**ImageNet-1K and ImageNet-22K Pretrained Swin-V1 Models**
+**NYUD-v2 dataset DeMT Models**
 
 | name | backbone |  | #params | FLOPs | SemSeg |Depth | Normal| Bound|
 
@@ -49,7 +49,7 @@ DeMT achieves strong performance on PASCAL-Context (`75.33 mIoU semantic segment
 
 | DeMT | Swin-T |  |  |  |  |  |  | - | [github]|
 
-## Citing Swin Transformer
+## Citing DeMT multi-task method
 
 ```
 @inproceedings{xyy2023DeMT,
