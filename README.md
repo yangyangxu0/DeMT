@@ -1,4 +1,3 @@
-# Coming soon
 # DeMT
 
 This repo is the official implementation of ["DeMT"](https://arxiv.org/pdf/2103.14030.pdf) as well as the follow-ups. It currently includes code and models for the following tasks:
