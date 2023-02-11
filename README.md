@@ -36,7 +36,7 @@ channel-aware mixing operator leveraged to allow communication among different c
 DeMT achieves strong performance on PASCAL-Context (`75.33 mIoU semantic segmentation` and `63.11 mIoU Human Segmentation` on test) and
  and NYUD-v2 semantic segmentation (`54.34 mIoU` on test), surpassing previous models by a large margin.
 
-![teaser](figures/teaser.png)
+![teaser](figures/overflow_6.pdf)
 
 ## Main Results on ImageNet with Pretrained Models
 
