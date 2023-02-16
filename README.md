@@ -104,5 +104,5 @@ python ./src/main.py --cfg ./config/t-nyud/swin/siwn_t_DeMT.yaml --datamodule.da
 
 
 ## Acknowledgement
-This repository is based [ATRC](https://github.com/brdav/atrc).
+This repository is based [ATRC](https://github.com/brdav/atrc). Thanks to [ATRC](https://github.com/brdav/atrc)!
 
