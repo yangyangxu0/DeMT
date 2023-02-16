@@ -69,6 +69,15 @@ conda install opencv==4.4.0 -c conda-forge
 conda install scikit-image==0.17.2
 ```
 
+**Data Prepare**
+```
+wget https://data.vision.ee.ethz.ch/brdavid/atrc/NYUDv2.tar.gz
+wget https://data.vision.ee.ethz.ch/brdavid/atrc/PASCALContext.tar.gz
+tar xfvz ./NYUDv2.tar.gz 
+tar xfvz ./PASCALContext.tar.gz
+```
+
+
 **Train**
 
 To train DeMT model:
@@ -78,7 +87,10 @@ python ./src/main.py --cfg ./config/t-nyud/swin/siwn_t_DeMT.yaml --datamodule.da
 
 **Evaluation**
 
-- The boundary predictions are saved on the directory: ./logger/NYUD_xxx/version_x/edge_preds/ .
+- When the training is finished, the boundary predictions are saved in the following directory: ./logger/NYUD_xxx/version_x/edge_preds/ .
 - The evaluation of boundary detection use the MATLAB-based [SEISM](https://github.com/jponttuset/seism) repository to obtain the optimal-dataset-scale-F-measure (odsF) scores.
 
-## 
+
+## Acknowledgement
+This repository is based [ATRC](https://github.com/brdav/atrc).
+
