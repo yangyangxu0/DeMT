@@ -38,7 +38,7 @@ DeMT achieves strong performance on PASCAL-Context (`75.33 mIoU semantic segment
 
 ## Main Results on ImageNet with Pretrained Models
 
-**DeMT on NYUD-v2 dataset **
+**DeMT on NYUD-v2 dataset**
 
 | model|backbone|#params| FLOPs | SemSeg| Depth | Noemal|Boundary| model zoom | config/log |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |:---: |
@@ -48,7 +48,7 @@ DeMT achieves strong performance on PASCAL-Context (`75.33 mIoU semantic segment
 | DeMT | Swin-B | 90.9M | 153.65G | 54.34 | 0.5209 | 19.21 | 78.5 | [Google Drive]()/[config]() | [log]() |
 
 
-**DeMT on PASCAL-Contex dataset **
+**DeMT on PASCAL-Contex dataset**
 
 | model | backbone |  SemSeg | PartSeg | Sal | Normal| Boundary| model zoom | config/log |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |
