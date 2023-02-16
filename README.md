@@ -62,7 +62,7 @@ DeMT achieves strong performance on PASCAL-Context (`75.33 mIoU semantic segment
 
 
 ## Getting Started
-Install:
+**Install**
 conda install pytorch==1.7.0 torchvision==0.8.1 cudatoolkit=10.1 -c pytorch
 conda install pytorch-lightning==1.1.8 -c conda-forge
 conda install opencv==4.4.0 -c conda-forge
