@@ -25,8 +25,6 @@ This repo is the official implementation of ["DeMT"](https://arxiv.org/pdf/2103.
 1. DeMT got accepted by AAAI 2023. 
 
 
-
-
 ## Introduction
 
 **DeMT** (the name `DeMT` stands for **De**formable **M**ixer **T**ransformer for Multi-Task Learning of Dense
@@ -64,10 +62,17 @@ DeMT achieves strong performance on PASCAL-Context (`75.33 mIoU semantic segment
 ## Getting Started
 **Install**
 conda install pytorch==1.7.0 torchvision==0.8.1 cudatoolkit=10.1 -c pytorch
+
 conda install pytorch-lightning==1.1.8 -c conda-forge
+
 conda install opencv==4.4.0 -c conda-forge
+
 conda install scikit-image==0.17.2
 
+**Train**
+To train DeMT model:
 
+python ./src/main.py --cfg ./config/t-nyud/swin/siwn_t_DeMT.yaml --datamodule.data_dir $DATA_DIR --trainer.gpus 8
 
+The evaluation of boundary detection is disabled, since the MATLAB-based [SEISM](https://github.com/jponttuset/seism) repository was used for obtaining the optimal dataset F-measure scores. Instead, the boundary predictions are simply saved on the disk in this code.
 ## 
