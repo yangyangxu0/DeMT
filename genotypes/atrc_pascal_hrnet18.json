@@ -1,0 +1,40 @@
+{
+    "data": {
+        "semseg": {
+            "semseg": 3,
+            "human_parts": 3,
+            "sal": 4,
+            "normals": 0,
+            "edge": 4
+        },
+        "human_parts": {
+            "semseg": 3,
+            "human_parts": 3,
+            "sal": 4,
+            "normals": 3,
+            "edge": 4
+        },
+        "sal": {
+            "semseg": 3,
+            "human_parts": 3,
+            "sal": 3,
+            "normals": 4,
+            "edge": 3
+        },
+        "normals": {
+            "semseg": 3,
+            "human_parts": 3,
+            "sal": 3,
+            "normals": 3,
+            "edge": 4
+        },
+        "edge": {
+            "semseg": 3,
+            "human_parts": 3,
+            "sal": 3,
+            "normals": 1,
+            "edge": 3
+        }
+    },
+    "step": 40000
+}

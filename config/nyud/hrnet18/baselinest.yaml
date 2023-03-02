@@ -1,0 +1,17 @@
+datamodule:
+  tasks: semseg  # semseg, depth, normals or edge
+  dataset_name: NYUD
+  batch_size: 8  # in total
+  num_workers: 4  # per GPU
+
+model:
+  model_backbone: HRNet18-S
+  model_head: FCNHead
+  in_index: 0,1,2,3
+  iterations: 40000
+  lr: 0.01
+  weight_decay: 0.0005
+
+trainer:
+  sync_batchnorm: True
+  check_val_every_n_epoch: 10

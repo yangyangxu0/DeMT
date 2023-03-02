@@ -1,0 +1,18 @@
+datamodule:
+  tasks: semseg,depth,normals,edge
+  dataset_name: NYUD
+  batch_size: 8  # in total
+  num_workers: 4  # per GPU
+
+model:
+  model_backbone: HRNet48
+  model_head: AdaptiveTaskRelationalContextSearchHead
+  in_index: 0,1,2,3
+  iterations: 40000
+  lr: 0.01
+  weight_decay: 0.0005
+
+trainer:
+  sync_batchnorm: True
+  check_val_every_n_epoch: 10
+  gradient_clip_val: 10

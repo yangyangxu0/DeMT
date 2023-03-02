@@ -1,0 +1,29 @@
+{
+    "data": {
+        "semseg": {
+            "semseg": 3,
+            "depth": 3,
+            "normals": 4,
+            "edge": 4
+        },
+        "depth": {
+            "semseg": 4,
+            "depth": 3,
+            "normals": 4,
+            "edge": 4
+        },
+        "normals": {
+            "semseg": 4,
+            "depth": 3,
+            "normals": 3,
+            "edge": 4
+        },
+        "edge": {
+            "semseg": 3,
+            "depth": 3,
+            "normals": 1,
+            "edge": 3
+        }
+    },
+    "step": 40000
+}
