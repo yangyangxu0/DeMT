@@ -50,12 +50,12 @@ DeMT achieves strong performance on PASCAL-Context (`75.33 mIoU semantic segment
 
 **DeMT on PASCAL-Contex dataset**
 
-| model | backbone |  SemSeg | PartSeg | Sal | Normal| Boundary| model checkpopint |log |
+| model | backbone |  SemSeg | PartSeg | Sal | Normal| Boundary| 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |
-| DeMT |HRNet-18| 59.23 | 57.93 | 83.93| 14.02 | 69.80 | [Google Drive]() | [log]() |
-| DeMT | Swin-T | 69.71 | 57.18 | 82.63| 14.56 | 71.20 | [Google Drive]() | [log]() |
-| DeMT | Swin-S | 72.01 | 58.96 | 83.20| 14.57 | 72.10 | [Google Drive]() | [log]() |
-| DeMT | Swin-B | 75.33 | 63.11 | 83.42| 14.54 | 73.20 | [Google Drive]() | [log]() |
+| DeMT |HRNet-18| 59.23 | 57.93 | 83.93| 14.02 | 69.80 |
+| DeMT | Swin-T | 69.71 | 57.18 | 82.63| 14.56 | 71.20 |
+| DeMT | Swin-S | 72.01 | 58.96 | 83.20| 14.57 | 72.10 | 
+| DeMT | Swin-B | 75.33 | 63.11 | 83.42| 14.54 | 73.20 |
 
 
 
