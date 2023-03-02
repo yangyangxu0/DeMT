@@ -43,7 +43,8 @@ DeMT achieves strong performance on PASCAL-Context (`75.33 mIoU semantic segment
 | model|backbone|#params| FLOPs | SemSeg| Depth | Noemal|Boundary| model checkpopint | log |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |:---: |:---: |
 | DeMT |HRNet-18| 4.76M  | 22.07G  | 39.18 | 0.5922 | 20.21| 76.4 | [Google Drive]() | [log]()  |
-| DeMT | Swin-T | 32.07M | 100.70G | 46.36 | 0.5871 | 20.60| 76.9 | [Google Drive]() | [log]()  |
+| DeMT | Swin-T | 32.07M | 100.70G | 46.36 | 0.5871 | 20.60| 76.9 | [Google Drive](https://drive.google.com/file/d/1IfQRVyvaVkEfybzh4QAz9Vq_0U38Hngq/view?usp=share_link) | [log](https://drive.google.com/file/d/1eAtQVJLcvIOMwAfKyl2NmYfe3hPne_WK/view?usp=share_link)  |
+| DeMTxdepth2 | Swin-T | 36.6M| - | 47.45 | 0.5563| 19.9| 77.0 | [Google Drive](https://drive.google.com/file/d/1Rz4R9vu8bGtskpJDlVfgexYZoHtz8j8k/view?usp=share_link) | [log](https://drive.google.com/file/d/1TPo4pMjbhPAn3gxKOt4P7hVSPJe1Lpsn/view?usp=share_link)  |
 | DeMT | Swin-S | 53.03M | 121.05G | 51.5 | 0.5474 | 20.02 | 78.1 | [Google Drive](https://drive.google.com/drive/folders/1jINF9WOyILqrPcsprWbM5VSCEWozsc1c) | [log](https://drive.google.com/drive/folders/1jINF9WOyILqrPcsprWbM5VSCEWozsc1c)|
 | DeMT | Swin-B | 90.9M | 153.65G | 54.34 | 0.5209 | 19.21 | 78.5 | [Google Drive]() | [log]() |
 
