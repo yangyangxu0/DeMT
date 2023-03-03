@@ -47,7 +47,7 @@ DeMT achieves strong performance on PASCAL-Context (`75.33 mIoU semantic segment
 | DeMTxdepth2 | Swin-T | 36.6M| - | 47.45 | 0.5563| 19.90| 77.0 | [Google Drive](https://drive.google.com/file/d/1Rz4R9vu8bGtskpJDlVfgexYZoHtz8j8k/view?usp=share_link) | [log](https://drive.google.com/file/d/1TPo4pMjbhPAn3gxKOt4P7hVSPJe1Lpsn/view?usp=share_link)  |
 | DeMT | Swin-S | 53.03M | 121.05G | 51.5 | 0.5474 | 20.02 | 78.1 | [Google Drive](https://drive.google.com/drive/folders/1jINF9WOyILqrPcsprWbM5VSCEWozsc1c) | [log](https://drive.google.com/drive/folders/1jINF9WOyILqrPcsprWbM5VSCEWozsc1c)|
 | DeMT | Swin-B | 90.9M | 153.65G | 54.34 | 0.5209 | 19.21 | 78.5 | [Google Drive]() | [log]() |
-| DeMT | Swin-L | 201.64M | -G | 56.941 | 0.5007 | 19.14 | 78.8 | [Google Drive]() | [log]() |
+| DeMT | Swin-L | 201.64M | -G | 56.94 | 0.5007 | 19.14 | 78.8 | [Google Drive]() | [log]() |
 
 **DeMT on PASCAL-Contex dataset**
 
