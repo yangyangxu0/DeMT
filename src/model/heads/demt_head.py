@@ -91,14 +91,14 @@ class DefMixer(nn.Module):
 
         self.blocks = nn.Sequential(
             *[nn.Sequential(
+                    nn.Conv2d(dim, dim, kernel_size=kernel_size),
+                    nn.GELU(),
+                    nn.BatchNorm2d(dim),
                     Residual(nn.Sequential(
                         ChlSpl(dim, dim, (1, 3), 1, 0),
                         nn.GELU(),
                         nn.BatchNorm2d(dim)
                     )),
-                    nn.Conv2d(dim, dim, kernel_size=kernel_size),
-                    nn.GELU(),
-                    nn.BatchNorm2d(dim)
             ) for i in range(depth)],
         )
 
